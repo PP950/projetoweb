@@ -8,6 +8,7 @@ import Produtos from './routes/Produtos.jsx'
 import CadastrarProdutos from './routes/CadastrarProduto.jsx'
 import Error from './routes/Error.jsx'
 import App from './App.jsx'
+import Usuario from './routes/Usuario.jsx'
 
 //criando a função pai e filho
 const router = createBrowserRouter([{
@@ -21,7 +22,8 @@ const router = createBrowserRouter([{
     {path:'/login', element:<Login/>},
     {path:'/sobre', element:<Sobre/>},
     {path:'/produtos', element:<Produtos/>},
-    {path:'/cadastrarprodutos', element:<CadastrarProdutos/>},
+    {path:'/cadastrarproduto', element:<CadastrarProdutos/>},
+    {path:'/usuario', element:<Usuario/>}
   ]
 }])
 

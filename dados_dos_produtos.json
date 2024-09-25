@@ -1,5 +1,22 @@
 {
-    "Produtos":[
-
-    ]
+  "Produtos": [
+    {
+      "id": "800a",
+      "nome": "cybertesla",
+      "preco": "400000",
+      "descricao": "carro eletrico"
+    },
+    {
+      "id": "25e3",
+      "nome": "byd",
+      "preco": "350000",
+      "descricao": "carro eletrico"
+    },
+    {
+      "id": "1368",
+      "nome": "tesla",
+      "preco": "450000",
+      "descricao": "carro eletrico"
+    }
+  ]
 }
