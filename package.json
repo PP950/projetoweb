@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "estoque": "json-server --watch dados_dos_produtos.json --port 4343",
     "backend": "json-server --watch dados.json --port 9595",
     "build": "vite build",
     "lint": "eslint .",
