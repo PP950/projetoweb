@@ -15,6 +15,8 @@ h1{
    align-itens: center;
    width: 100%;
    height: 700px;
+   padding: 25px;
 }
+   
 
 `

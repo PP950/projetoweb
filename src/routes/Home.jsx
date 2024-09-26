@@ -5,6 +5,8 @@ import { HomeStyle } from "../css/HomeStyle";
 // Importando as imagens
 import sport1 from '../assets/sport1.jpg'; 
 import sport2 from '../assets/sport2.webp'; 
+import produto1 from '../assets/produto1.jpeg';
+import produto2 from '../assets/produto2.png';
 
 
 const Home = () => {
@@ -36,7 +38,19 @@ const Home = () => {
             <div className="slideshow">
                 <img src={images[currentImageIndex]} alt={`Esporte ${currentImageIndex + 1} `}/>
             </div>
+          {/* Cards com produtos */}
+          <div className="cards">
+                <div className="card">
+                    <img src={produto1} alt="Produto 1" />
+                    <p>Produto 1 - R$100,00</p>
+                </div>
+                <div className="card">
+                    <img src={produto2} alt="Produto 2" />
+                    <p>Produto 2 - R$150,00</p>
+                </div>
+            </div>
         </section>
+            
         </HomeStyle>
     );
 };
