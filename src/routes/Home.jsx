@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { HomeStyle } from "../css/HomeStyle";
 
 
 // Importando as imagens
@@ -22,6 +23,7 @@ const Home = () => {
     }, [images.length]);
 
     return (
+        <HomeStyle>
         <section className="home">
             <h1>Bem-vindo à Nossa Loja de Esportes</h1>
             <p>
@@ -48,6 +50,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
+    </HomeStyle>
     );
 };
 

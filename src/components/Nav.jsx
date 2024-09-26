@@ -1,4 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
+import { NavStyle } from '../css/NavStyle';
 
 const Nav = () => {
     const navigate = useNavigate();
@@ -12,7 +13,8 @@ const Nav = () => {
     const isLoggedIn = sessionStorage.getItem("usuario") !== null;
 
     return (
-        <nav>
+       <NavStyle>
+       <nav>
             <ul>
                 <li>
                     <Link to="/">Home</Link>
@@ -33,6 +35,7 @@ const Nav = () => {
                 )}
             </ul>
         </nav>
+     </NavStyle>
     );
 };
 
