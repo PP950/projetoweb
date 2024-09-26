@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import produto1 from '../assets/produto1.jpeg'; 
 import produto2 from '../assets/produto2.png';
+import { ProdutosStyle } from '../css/ProdutosStyle';
 
 const Produtos = () => {
     const [produtos, setProdutos] = useState([]);
@@ -39,6 +40,7 @@ const Produtos = () => {
 
     return (
         <>
+          <ProdutosStyle>
             <section className="Produtos">
                 <h2>Listar Produtos Cadastrados</h2>
                 <Link to="/cadastrarproduto">Cadastrar Novo Produto</Link>
@@ -75,6 +77,7 @@ const Produtos = () => {
                     </tbody>
                 </table>
             </section>
+         </ProdutosStyle>
         </>
     );
 };

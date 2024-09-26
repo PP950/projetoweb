@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-export const LoginStyle = styled.section`
-
+export const ProdutosStyle = styled.section`
 
 `
