@@ -11,12 +11,6 @@
       "nome": "byd",
       "preco": "350000",
       "descricao": "carro eletrico"
-    },
-    {
-      "id": "1368",
-      "nome": "tesla",
-      "preco": "450000",
-      "descricao": "carro eletrico"
     }
   ]
 }

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const Produtos = () => {
+const CadastrarProdutos = () => {
     const [produtos, setProdutos] = useState([]);
 
     useEffect(() => {
@@ -41,4 +41,4 @@ const Produtos = () => {
     );
 };
 
-export default Produtos;
+export default CadastrarProdutos;
