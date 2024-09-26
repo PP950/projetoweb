@@ -41,8 +41,15 @@ const Produtos = () => {
           <ProdutosStyle>
             <section className="Produtos">
                 <h2>Listar Produtos Cadastrados</h2>
+                <ul>
+                    <li>
                 <Link to="/cadastrarproduto">Cadastrar Novo Produto</Link>
-                <Link to="/login">Voltar</Link>
+                </li>
+                <li>
+                    <Link to="/login">Voltar</Link>
+                </li>
+                </ul>
+
                 <table>
                     <thead>
                         <tr>
