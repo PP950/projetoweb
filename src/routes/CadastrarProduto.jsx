@@ -17,7 +17,7 @@ const CadastrarProdutos = () => {
     };
 
     return (
-        <section className="produtos">
+       <section className="produtos">
             <h1>Lista de Produtos</h1>
             <table>
                 <thead>

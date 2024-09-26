@@ -1,5 +1,6 @@
 import { useParams, Link,useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { UsuarioStyle } from "../css/UsuarioStyle";
 
 
 const Usuario=()=>{
@@ -53,6 +54,7 @@ const Usuario=()=>{
 
 
     return (
+        <UsuarioStyle>
         <section className="usuario">
             <h1>Cadastro de Usuários</h1>
             <form onSubmit={handleSubmit}>
@@ -84,6 +86,7 @@ const Usuario=()=>{
             </form>
 
         </section>
+    </UsuarioStyle>
     )
 }
 export default Usuario
