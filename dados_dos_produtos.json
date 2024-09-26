@@ -11,6 +11,12 @@
       "nome": "byd",
       "preco": "350000",
       "descricao": "carro eletrico"
+    },
+    {
+      "id": "6010",
+      "nome": "byd dolphin",
+      "preco": 149500,
+      "descricao": "O Dolphin é o primeiro veículo da BYD Brasil a adotar o design da linha “Ocean” inspirada nos animais marinhos e oceano"
     }
   ]
 }
